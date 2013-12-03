@@ -33,7 +33,8 @@
   set lines=45 columns=120
 
 " pretty but not terminal-compatible color scheme
+  syntax enable
   set background=dark
-  colors twilight2
+  colors solarized
 
 runtime! custom_config/*.gvim
